@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    height: 250vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2vw;
+    overflow: hidden;
+}
+
+.col{
+    height: 80%;
+    width: 22%;
+}
+
+.spacer{
+    height: 70vh;
+    width: 100%;
+}
+
+img{
+    height: 40%;
+    width: 100%;
+    margin-bottom: 3vh;
+    object-fit: cover;
+    border-radius: 1vw;
+}
