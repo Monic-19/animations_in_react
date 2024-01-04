@@ -25,3 +25,41 @@
         pointer-events: none;
     }
 }
+
+.dragBox{
+    position: relative;
+    cursor: pointer;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(9, 8, 8, 0.907);
+    margin-top: 100vh;
+    overflow: hidden;
+
+    >h1{
+        position: absolute;
+        left: 50%;
+        top: 5%;
+        transform: translateX(-50%);
+        color: white;
+        font-size: 4vw;
+        letter-spacing: 4px;
+    }
+
+    >.box{
+        z-index: 5;
+        height: 40vh;
+        width: 30vh;
+        background-color: rgba(255, 255, 255, 0.506);
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 30%;
+        border-radius: 30px;
+    }
+
+    >.b1{left: 5%;}
+    >.b2{left: 30%;}
+    >.b3{right:30%;}
+    >.b4{right: 5%;}
+}
