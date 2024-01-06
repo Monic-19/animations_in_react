@@ -6,6 +6,7 @@ import DragFramer from './components/DragFramer';
 import HorizontalScroll from './components/HorizontalScroll';
 import UseScrollarFramer from './components/UseScrollarFramer';
 import TextOnScroll from './components/TextOnScroll';
+import GsapScrollTrigger from './components/GsapScrollTrigger';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
     <HorizontalScroll></HorizontalScroll>
     <UseScrollarFramer></UseScrollarFramer>
     <TextOnScroll></TextOnScroll>
+    <GsapScrollTrigger></GsapScrollTrigger>
     </>
   );
 }
