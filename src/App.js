@@ -7,13 +7,15 @@ import HorizontalScroll from './components/HorizontalScroll';
 import UseScrollarFramer from './components/UseScrollarFramer';
 import TextOnScroll from './components/TextOnScroll';
 import GsapScrollTrigger from './components/GsapScrollTrigger';
+import Header from './Elements/Header';
 
 function App() {
   return (
     <>
+    <Header></Header>
     <BasicGSAP></BasicGSAP>
     <Parallax></Parallax>
-    <CursorFramer></CursorFramer>
+    {/* <CursorFramer></CursorFramer> */}
     <DragFramer></DragFramer>
     <HorizontalScroll></HorizontalScroll>
     <UseScrollarFramer></UseScrollarFramer>
