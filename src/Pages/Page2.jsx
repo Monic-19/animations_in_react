@@ -1,11 +1,12 @@
 import React from 'react'
 import Header from '../Elements/Header'
+import PageIntro from '../page2components/PageIntro'
 
 const Page2 = () => {
   return (
     <>
         <Header></Header>
-        <div>Page2</div>
+        <PageIntro></PageIntro>
     </>
   )
 }

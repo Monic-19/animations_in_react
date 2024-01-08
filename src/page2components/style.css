@@ -1,0 +1,61 @@
+.PS{
+    height: 95vh;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    color : white;
+    overflow: hidden;
+
+    >.PsBlank{
+        background-color: rgb(0, 0, 0);
+        height: 10vh;
+        width: 100%;
+    }
+
+    >.PsHero{
+        background-color: rgb(255, 255, 255);
+        height: 75vh;
+        width: 100%;
+        position: relative;
+
+        >.PSimages{
+
+            >img{
+                object-fit: cover;
+                height: 60vh;
+                width: 30vw ;
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                cursor: pointer;
+            }
+
+            >.PSBox{
+                position: absolute;
+                top: 50%;
+                right: 5%;
+                text-align: right;
+                transform: translateY(-50%);
+                color: rgb(0, 0, 0);
+                font-size: 6vw;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            }
+            
+            >#PSi1{
+                left: 10%;
+                rotate: -10deg;
+            }
+            
+            >#PSi2{
+                left: 30%;
+                rotate: 10deg;
+            }
+        }
+    }
+}
+
+#PSi1:hover{
+    z-index: 1;
+}
+#PSi2:hover{
+    z-index: 1;
+}
