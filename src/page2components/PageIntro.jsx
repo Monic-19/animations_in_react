@@ -30,6 +30,17 @@ const PageIntro = () => {
         opacity: 0
       })
 
+      .to("#PSi1", {
+        rotate : "10deg",
+        left : "35%",
+        z :2,
+      },"l")
+      .to("#PSi2", {
+        rotate : "-10deg",
+        left : "3%",
+       
+      },"l")
+
 
   }, { scope: ref })
 

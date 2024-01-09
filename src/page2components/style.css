@@ -59,3 +59,60 @@
 #PSi2:hover{
     z-index: 1;
 }
+
+.M3d{
+    height: 100vh;
+    width: 100%;
+    padding:  0 6.597vw;
+    z-index: 10;
+    position: relative;
+    overflow: hidden;
+
+    >.M3img{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -6.597vw;
+        height: 100vh;
+        width: 100%;
+        z-index: -1;
+        top: 0%;
+        left: 25%;
+
+        >img{
+           position: absolute;
+           height: 60vh;
+           width: auto;
+           transition: transform 0.3s ease-in-out;
+           /* filter: grayscale(1); */
+           z-index: 28; 
+        }
+
+        >img.active{
+            z-index: 30;
+        }
+
+    }
+
+    >.M3title{
+        position: absolute;
+        display: block;
+        padding-top: 37.77vh;
+        padding-bottom: 10vh;
+        top: -34%;
+
+        >.Mti{
+            >h1{
+                display: block;
+                font-size: 8vh;
+                color: #2d2d2d;
+                transition: color 0.1s ease-in-out;
+            }
+            >h1:hover{
+                color: #bababa;
+                
+            }
+        }
+    }
+}
