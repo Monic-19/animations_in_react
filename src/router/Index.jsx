@@ -6,7 +6,6 @@ const router = createBrowserRouter([
     {path : "/", element : <App></App>},
     {path : "*", element : <App></App>},
     {path : "/page2", element : <Page2></Page2>},
-
 ])
 
 export default router;
