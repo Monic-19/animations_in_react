@@ -151,3 +151,40 @@
 .letter:has(+ .letter + .letter:hover){
     font-weight: 500;
 }
+
+.CB{
+    height: 100vh;
+    width: 100%;
+    background-color: #846EAB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    >.circ{
+        height: 60vh;
+        width:  60vh;
+        /* background-color: #a184d2; */
+        border-radius: 50%;
+        cursor: pointer;
+        position: relative;
+
+        >.line{
+            height: 4vh;
+            width: 25vw;
+            background-color: white;
+            position: absolute;
+            top: 45%;
+            left: 13%;
+        }
+
+        >.l3{
+            width: 10vw;
+        }
+
+    }
+    >.circ:hover{
+        background-color: #a184d277;
+    }
+}
+
+
